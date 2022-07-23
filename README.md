@@ -1,2 +1,2 @@
-# game
+# mastermind
 Game
