@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "game.h"
+#include "mastermind.h"
 
 static DIGIT sequence;
 static COUNT hint;
