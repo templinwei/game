@@ -10,25 +10,25 @@
     #define FILENAME "record.txt"
 #endif
 typedef enum check_valid {
-	size,
-	non_digit,
-	duplicate
+    size,
+    non_digit,
+    duplicate
 } CHECK;
 typedef enum action_mode {
-	action_game,
-	action_count,
-	action_generate,
-	action_clear,
-	action_clear_hint,
-	action_show
+    action_game,
+    action_count,
+    action_generate,
+    action_clear,
+    action_clear_hint,
+    action_show
 } ACTION;
 typedef struct {
-	int input[DIG_SIZE];
-	int result[DIG_SIZE];
+    int input[DIG_SIZE];
+    int result[DIG_SIZE];
 } DIGIT;
 typedef struct {
-	int blow;
-	int hit;
+    int blow;
+    int hit;
 } COUNT;
 static void game(void);
 static void str_toupper(char *);
